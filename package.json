@@ -1,5 +1,6 @@
 {
   "name": "boilerplate",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,7 +12,7 @@
     "test": "jest",
     "test:watch": "jest --watch --maxWorkers=25%",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s ./public"
   },
   "lint-staged": {
     "src/**/*": [
